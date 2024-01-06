@@ -10,12 +10,15 @@ body {
 .btn-primary {
   font-size: 20px;
   font-weight: 700;
-  padding: 15px 35px;
+  padding: 15px 32px;
   color: white;
   background-color: #fd6e0a;
   border: 0;
   border-radius: 5px;
   cursor: pointer;
+}
+section {
+  padding-top: 100px;
 }
 /* nav related styles */
 
@@ -81,7 +84,15 @@ header {
 .banner-btns button {
   margin-right: 16px;
 }
+.banner-btns button i {
+  margin-right: 6px;
+}
 .banner-img {
   width: 560px;
   padding-right: 26px;
+}
+.btn-secondary {
+  border: 1px solid #fd6e0a;
+  background-color: transparent;
+  color: #fd6e0a;
 }
