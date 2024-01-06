@@ -167,3 +167,47 @@ header {
   line-height: 23px;
   margin: 0;
 }
+/* resume */
+.resume-info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.resume-info h3 {
+  color: #474747;
+  font-size: 24px;
+  font-weight: 700;
+}
+.resume-item {
+  margin-right: 60px;
+  padding: 26px 0px;
+}
+hr {
+  margin-right: 80px;
+  background-color: red;
+}
+.education-info h3,
+.resume-info h3 {
+  padding-bottom: 10px;
+  padding-top: 60px;
+}
+.resume-item h4 {
+  color: #474747;
+  font-size: 16px;
+}
+.resume-item h6 {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0px 16px;
+}
+.resume-item p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 24px;
+  padding-right: 74px;
+}
+.resume-btn {
+  text-align: center;
+  margin-top: 40px;
+}
