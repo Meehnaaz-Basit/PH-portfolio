@@ -21,7 +21,7 @@ section {
   padding-top: 120px;
 }
 .container {
-  width: 70%;
+  width: 74%;
   margin: 0 auto;
 }
 .title {
@@ -45,7 +45,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 15%;
+  padding: 30px 13%;
 }
 nav > ul {
   display: flex;
@@ -69,9 +69,10 @@ nav a {
 /* banner style */
 header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, bottom left 26px;
 }
 .banner {
   padding-top: 24px;
@@ -80,7 +81,7 @@ header {
   justify-content: space-between;
 }
 .banner-content {
-  padding-left: 15%;
+  padding-left: 13%;
   max-width: 48%;
 }
 .banner-content h3 {
@@ -183,7 +184,7 @@ header {
   padding: 26px 0px;
 }
 hr {
-  margin-right: 80px;
+  margin-right: 64px;
   background-color: red;
 }
 .education-info h3,
@@ -210,4 +211,57 @@ hr {
 .resume-btn {
   text-align: center;
   margin-top: 40px;
+}
+/* footer */
+footer {
+  background: #fff8f3;
+  padding: 120px 0px;
+  margin-top: 120px;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text,
+.footer-form {
+  flex-basis: 50%;
+}
+.foot-title,
+.foot-pera {
+  text-align: left;
+}
+.foot-pera {
+  color: #474747;
+  font-size: 16px;
+  line-height: 28px;
+}
+.footer-social-icon {
+  padding-top: 30px;
+}
+.footer-social-icon a {
+  padding-right: 20px;
+}
+.footer-form {
+  padding-left: 90px;
+}
+.form input {
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  padding: 20px 20px;
+  display: block;
+  width: 90%;
+  margin: 30px 0px;
+}
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+}
+.form textarea {
+  width: 90%;
+  border: 0;
+  resize: none;
+  padding: 20px 20px;
+  display: block;
+  margin-bottom: 30px;
 }
